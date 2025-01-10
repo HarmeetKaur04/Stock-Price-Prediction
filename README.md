@@ -9,7 +9,7 @@ Key features include:
 - **Data Preparation:** Sequences created from previous days' stock prices to predict future prices.
 
 ## Dataset
-The notebook treats stock prices as a time series challenge. Data preprocessing includes splitting the dataset into training, testing, and validation sets (80%, 10%, and 10%, respectively).
+The notebook treats stock prices as a time series challenge. 10 years's data of google has taken from yahoo finance by using yfinance library. Data preprocessing includes splitting the dataset into training, testing, and validation sets (80%, 10%, and 10%, respectively).
 
 ## Key Steps
 1. **Moving Average Analysis:**
@@ -30,7 +30,7 @@ The notebook treats stock prices as a time series challenge. Data preprocessing 
 - Python 3.10 or later
 - TensorFlow and Keras
 - NumPy and Pandas
-- Matplotlib for visualizations
+- Matplotlib and Seaborn for visualizations
 
 ## Usage
 1. Clone this repository and install the required dependencies.
